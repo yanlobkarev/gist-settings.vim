@@ -25,10 +25,5 @@ function! s:VimrcGist(com)
     endif
 endfunction
 
-function! gist_settings#VimrcPush()
-    :call <SID>VimrcGist('push')
-endfunction
-
-function! gist_settings#VimrcPull()
-    :call <SID>VimrcGist('pull')
-endfunction
+command! VimrcPush call <SID>VimrcGist('push')
+command! VimrcPull call <SID>VimrcGist('pull')

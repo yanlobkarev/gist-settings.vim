@@ -28,7 +28,7 @@ At first run plugin will prompt You with github api key-
 You need to follow link, generate _Personal access token_ 
 with _gist_ scope. And paste it in vim.
     
-###Create uour own mappings
+###Create your own mappings
 ```vimscript
 nnoremap <silent> <M-P> :VimrcPush<CR>
 nnoremap <silent> <M-p> :VimrcPull<CR>
